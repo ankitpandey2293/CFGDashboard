@@ -11,7 +11,7 @@
 
     vm.user = {
       title: 'Admin',
-      email: 'contact@flatlogic.com',
+      email: 'contact@citizensbank.com',
       firstName: '',
       lastName: '' ,
       company: 'Citizens Financial Group' ,
