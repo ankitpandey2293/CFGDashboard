@@ -6,6 +6,8 @@ echo .
 echo https://install.meteor.com/windows
 echo .
 pause
+meteor create trillium
+cd trillium
 echo .
 echo Removing Meteor Core Pacakages..
 echo .
@@ -20,6 +22,7 @@ pause
 meteor npm install --save angular angular-meteor
 meteor add angular-templates pbastowski:angular-babel
 pause
+
 cls
 echo Setup Complete
 echo start application ?

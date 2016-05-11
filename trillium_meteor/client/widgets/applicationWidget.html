@@ -1,0 +1,16 @@
+ <div class="row" ng-controller="applicationWidgetCtrl">
+	<div class="col-lg-3 col-md-6 col-xs-12" align="left">
+		<rd-widget>
+			<rd-widget-body>
+				<div class="widget-icon green pull-left">
+					<i class="fa fa-users"></i>
+				</div>
+				<div class="title" align="center">
+					<H2>{{applicationName}}</H2>
+					<H4>Health Check Status{{ " : " + Status }}</H4>
+					<nvd3 options="options" data="data" config="config"></nvd3> 
+				</div>
+			</rd-widget-body>
+		</rd-widget>
+	</div>
+</div>

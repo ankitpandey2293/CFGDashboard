@@ -1,3 +1,13 @@
-<body ng-app="trillium" ng-strict-di="">
- <applications-list></applications-list>
+
+<body ng-app="trillium" >
+<div class="container-fluid">
+  <h1>Dashboard Widgets</h1>
+  <div class="col">
+    <div class="col-sm-4" style="background-color:lavender;" ng-include src="'client/widgets/trackWidget.html'"></div>
+    <div class="col-sm-4" style="background-color:lavenderblush;">Health Checks</div>
+    <div class="col-sm-4" style="background-color:lavender;" ng-include src="'client/widgets/applicationWidget.html'"></div>
+  </div>
+</div>
+
 </body>
+
